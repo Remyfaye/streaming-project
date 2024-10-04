@@ -12,7 +12,7 @@ export default function Home() {
           Sign up now for a seamless and rewarding experience
         </h2>
 
-        <p>Get started Now</p>
+        <p className="mt-5 text-xl font-bold">Get started Now</p>
         <div className="">
           <div className="flex flex-col ">
             <label className="text-gray-400">Name</label>
