@@ -7,7 +7,11 @@ export default function Home() {
   return (
     <div className=" p-5 lg:flex  gap-10  text-white">
       <div className="flex mr-20 flex-col justify-between gap-3 mt-5 w-[100%]">
-        <h1 className="text-red-700 text-3xl text-center my-5">KDNPLUS</h1>
+        <h1 className="text-red-700 text-3xl text-center mt-5">KDNPLUS</h1>
+        <h2 className="text-gray-400 text-center text-sm mb-5 -mt-1">
+          Sign up now for a seamless and rewarding experience
+        </h2>
+
         <p>Get started Now</p>
         <div className="">
           <div className="flex flex-col ">
@@ -29,6 +33,7 @@ export default function Home() {
           <div className="flex flex-col ">
             <label className="text-gray-400">Password</label>
             <input
+              type="password"
               placeholder="enter your name"
               className="rounded-md py-2 bg-gray-500 px-3"
             />
