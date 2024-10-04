@@ -34,12 +34,12 @@ export default function Home() {
             />
           </div>
 
-          <div
+          <button
             onClick={() => router.push("/landing")}
             className="bg-red-600 my-20 py-3 w-[100%] text-xl"
           >
             Get Started
-          </div>
+          </button>
         </div>
       </div>
       <Image
