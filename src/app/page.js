@@ -9,7 +9,7 @@ export default function Home() {
       <div className="flex mr-20 flex-col justify-between gap-3 mt-5 w-[100%]">
         <h1 className="text-red-700 text-3xl text-center my-5">KDNPLUS</h1>
         <p>Get started Now</p>
-        <form className="">
+        <div className="">
           <div className="flex flex-col ">
             <label className="text-gray-400">Name</label>
             <input
@@ -34,16 +34,16 @@ export default function Home() {
             />
           </div>
 
-          <button
-            onClick={router.push("/landing")}
+          <div
+            onClick={() => router.push("/landing")}
             className="bg-red-600 my-20 py-3 w-[100%] text-xl"
           >
             Get Started
-          </button>
-        </form>
+          </div>
+        </div>
       </div>
       <Image
-        className="hidden lg:flex bg-red-400 -mx-20 -my-10"
+        className="hidden lg:flex  -mx-20 -my-10"
         src="/assets/pic.jpg"
         width={900}
         height={900}
